@@ -16,14 +16,13 @@ public class FavoritesFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        FavoritesViewModel favoitesViewModel =
-                new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(FavoritesViewModel.class);
+        FavoritesViewModel favoritesViewModel = new ViewModelProvider(this).get(FavoritesViewModel.class);
 
         binding = FragmentFavoritesBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textFavorites;
-        favoitesViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        favoritesViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
