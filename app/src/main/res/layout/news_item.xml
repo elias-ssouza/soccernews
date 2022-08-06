@@ -23,7 +23,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:srcCompat="@tools:sample/avatars" />
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ivNews" />
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tv_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -45,16 +45,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_title" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/bt_link"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="28dp"
-            android:background="@android:color/transparent"
             android:text="@string/bt_open_link"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_description" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_description"
+            style="?attr/borderlessButtonStyle"/>
 
         <ImageView
             android:id="@+id/iv_favorites"
@@ -63,6 +63,9 @@
             android:contentDescription="@string/cd_favorite_icon"
             app:layout_constraintBottom_toBottomOf="@+id/bt_link"
             app:layout_constraintEnd_toEndOf="parent"
+            android:focusable="true"
+            android:padding="4dp"
+            android:clickable="true"
             app:layout_constraintHorizontal_bias="0.781"
             app:layout_constraintStart_toEndOf="@+id/bt_link"
             app:layout_constraintTop_toTopOf="@+id/bt_link"
@@ -77,7 +80,10 @@
             app:layout_constraintBottom_toBottomOf="@+id/bt_link"
             app:layout_constraintStart_toEndOf="@+id/iv_favorites"
             app:layout_constraintTop_toTopOf="@+id/bt_link"
-            app:srcCompat="@drawable/ic_share_24dp" />
+            app:srcCompat="@drawable/ic_share_24dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="4dp"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
