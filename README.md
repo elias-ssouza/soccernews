@@ -1,6 +1,6 @@
 # Soccer News
 
-Este aplicativo é dedicado a fornecer as notícias sobre esportes no universo feminino, promovendo e destacando as realizações das mulheres no mundo do esporte.
+Este aplicativo é dedicado a fornecer as notícias sobre esportes, promovendo e destacando as realizações das mulheres no mundo do esporte.
 
 ### Introdução
 O EsportesFem é um aplicativo voltado para fãs de esportes femininos. Nossa missão é trazer visibilidade e reconhecimento para as atletas femininas, cobrindo uma ampla variedade de esportes, desde futebol até basquete, atletismo e muito mais.
