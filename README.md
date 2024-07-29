@@ -8,12 +8,6 @@ O Soccer News é um aplicativo voltado para fãs de esportes femininos. Nossa mi
 ### Funcionalidades
 Notícias Atualizadas: Receba as últimas notícias sobre esportes femininos de diversas fontes confiáveis.
 
-Cobertura de Eventos: Acompanhe a cobertura ao vivo de eventos esportivos importantes.
-
-Perfis de Atletas: Conheça mais sobre suas atletas favoritas, incluindo biografias e estatísticas.
-
-Alertas Personalizados: Configure alertas para receber notificações sobre suas equipes e atletas favoritas.
-
 Artigos e Análises: Leia artigos aprofundados e análises de especialistas sobre os eventos e tendências atuais no esporte feminino.
 
 ### Tecnologias Utilizadas
