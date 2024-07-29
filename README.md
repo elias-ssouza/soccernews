@@ -11,4 +11,4 @@ Notícias Atualizadas: Receba as últimas notícias sobre esportes femininos de 
 Artigos e Análises: Leia artigos aprofundados e análises de especialistas sobre os eventos e tendências atuais no esporte feminino.
 
 ### Tecnologias Utilizadas
-Linguagem de Programação: JavaScript
+Linguagem de Programação: Java
